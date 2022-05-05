@@ -1,0 +1,261 @@
+/*freshIdeas*/
+
+    /*Página principal*/
+
+        /*Reseteo propiedades CSS*/
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            width: 100%;
+            background-image: url("images/bg.png");
+        }
+
+        html{
+            width: 100%;
+        }
+
+        /*Posicionamiento y propiedades de las cajas*/
+
+        
+    /*HEADER*/
+
+header{
+    position: relative;
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+    /*NAV*/
+
+#logo{
+    position: relative;
+    left: 1%;
+    top: 15%;
+}
+
+header nav{
+    position: absolute;
+    right: 1%;
+    height: 90px;
+    top: 6%;
+}
+
+header ul{
+    list-style-type: none;
+    background-color: black;
+    width: max-content;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header li{
+    display: inline-block;
+    padding: 10px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#menu :hover{
+    background-color: #ffcc33;
+}
+
+    /*BANNER*/
+
+#sectionheader{
+   position: relative;
+   background-image: url("images/banner.png");
+   background-size: auto; 
+   background-position: right;
+   background-repeat: no-repeat;
+   border: solid #ececec 6px;
+   width: 97%;
+   left: 1%;
+}
+
+#articulo{
+    height: 242px;
+    padding-bottom: 55px;
+}
+
+#articulo h1{
+    position: absolute;
+    font-size: 30px;
+    left: 15%;
+    top: 15%;
+    border-bottom: #333333 solid 2px;
+    padding-bottom: 1%;
+}
+
+#articulo p{
+    position: absolute;
+    width: 30%;
+    font-size: 20px;
+    left: 15%;
+    top: 38%;
+}
+
+#articulo a{
+    position: absolute;
+    width: 25%;
+    left: 14.5%;
+    top: 65%;
+    color: white;
+    font-size: 20px;
+    border: solid #333333 4px;
+    background-color: #333333;
+    margin-bottom: 35%;
+    padding: 1%;
+}
+
+    /*SECTIONS*/
+
+#section1, #section2, #section3{
+    position: relative;
+    background-color: white;
+    margin: auto;
+    overflow-x: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#section1 {
+    float: left;
+    left: 12.5%;
+    width: 50%;
+}
+
+#section1 p{
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+#section1 img{
+    float:  left;
+    border: grey solid 1px;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+#section1 li{
+    list-style-type: none;
+}
+
+#section1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#section1 article{
+    margin-bottom: 27px;
+}
+
+#section2, #section3{
+    right: 10.5%;
+    width: 49.6%;
+    border: white solid 4px;
+}
+
+#section2 {
+    padding-top: 20px;
+    height: 223px;
+}
+
+
+#section2 img{
+    float:  left;
+    border: grey solid 1px;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+#section2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+h2 {
+    border-bottom: #333333 solid 2px;
+    padding-bottom: 1%;
+    margin-bottom: 10px;
+}
+
+#section3 {
+    padding-bottom: 30px;
+}
+
+    /*ASIDE*/
+
+aside{
+    position: absolute;
+    float: left;
+    background-color: white;
+    width: 15%;
+    margin: auto;
+    overflow-x: hidden;
+    top: 434px;
+    left: 66.5%;
+    height: 900px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+aside article{
+    border-bottom: #333333 solid 2px;
+    padding-bottom: 5%;
+}
+
+aside p{
+    position: relative;
+    padding-top: 4px;
+    padding-bottom: 18px;
+    top: 18px;
+    clear: both;
+}
+
+aside h3 {
+    float: left;
+}
+
+time {
+    position: relative;
+    float: left;
+    left: 55px;
+    background-color: #ffcc33;
+    padding: 3%;
+}
+
+    /*FOOTER*/
+
+footer{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#footer1 {
+    position: relative;
+    float: left;
+    left: 300px;
+}
+
+#footer2 {
+    position: relative;
+    float: right;
+    right: 300px;
+}
