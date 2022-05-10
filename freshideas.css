@@ -203,11 +203,12 @@ aside{
     width: 15%;
     margin: auto;
     overflow-x: hidden;
-    top: 445px;
+    top: 434px;
     left: 66.5%;
-    height: 900px;
+    height: 915px;
     padding-left: 3%;
     padding-right: 3%;
+    padding-bottom: 10px;
 }
 
 aside article{
